@@ -1,0 +1,56 @@
+.main-box {
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(0%,#1D3749), color-stop(60%,#1D3749), color-stop(100%,#559BB5));
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+li {
+	list-style-type: none;
+}
+.box {
+	border: 1px solid #000000;
+	height: 3em;
+	width: 3em;
+	margin-right: 5px;
+	margin-left: 5px;
+	background: #ffffff; 
+	cursor: pointer;
+	visibility: visible;
+    opacity: 1;
+    -webkit-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    -moz-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    -ms-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    -o-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.score {
+	color: #000000;
+	font-size: 2em;
+}
+.align-center {
+	display: flex;
+  	justify-content: center;
+}
+.cntr {
+	position: absolute;
+    transform: translate(-50%,-50%);
+    left: 48%;
+    margin-top: 2%;
+}
+.hide-box {
+	visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    -moz-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    -ms-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    -o-transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.yellow { background-color: yellow; }
