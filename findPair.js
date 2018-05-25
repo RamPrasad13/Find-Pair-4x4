@@ -21,7 +21,7 @@ $(document).ready(function() {
 	    return array;
 	}
 	var uniqueColors = ['red','yellow','blue','green'];
-	var rowSize = 4, colSize = 4;
+	var rowSize = 8, colSize = 8;
 	var colors = [];
 	var j = 0;
 	for (i=0; i< (rowSize * colSize); i++) {
